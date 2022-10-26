@@ -1,0 +1,60 @@
+.summary{
+/* border: 1px solid black; */
+font-size: 45px;
+/* letter-spacing: 1px; */
+/* word-spacing: 5px; */
+width: 60%;
+text-align: left;
+font-weight: 500;
+}
+.summary img{
+    display: inline;
+}
+.uppermain{
+    margin: auto;
+    /* border: 1px solid black; */
+    width: 90%;
+}
+.text{
+    font-size: 45px;
+    color:rgb(4 136 202);
+    font-weight: 500;
+    margin-left: 8px;
+}
+.image{
+    width:40%;
+}
+.profession{
+    font-size: 30px;
+    position: relative;
+}
+.profession::before{
+    content: "Full Stack Web Developer";
+    position: absolute;
+    width: 100%;
+    color:rgb(4 136 202);
+    top:0;
+    left: 0;
+    bottom: 0;
+    /* border-right: 0.1rem solid #0de065; */
+    animation: slide 3s linear infinite;
+    -webkit-animation: slide 3s linear infinite;
+    overflow: hidden;
+}
+@keyframes slide{
+    0%{
+        width: 0%;
+    }
+    50%{
+        width: 60%;
+    }
+    100%{
+        width: 0%;
+    }
+}
+.bg{
+    background-color: rgb(4 136 202);
+}
+.cl{
+    color:rgb(4 136 202);
+}

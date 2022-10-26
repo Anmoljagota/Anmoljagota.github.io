@@ -1,0 +1,51 @@
+.active {
+  text-decoration: none;
+  color: red;
+}
+
+.default {
+  text-decoration: none;
+  color: black;
+}
+.MainBox {
+  border: 1px solid rgb(206, 200, 200);
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+.SecondBox {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  width: 50%;
+  align-items: center;
+  margin-right: 10%;
+}
+.SecondBox > a {
+  position: relative;
+  text-decoration: none;
+  color: rgb(53, 47, 47);
+  font-weight: 550;
+  font-size: 1.2em;
+}
+a:after {
+  content: "";
+  position: absolute;
+  background-color: rgb(4 136 202);
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  transition: 0.3s;
+}
+a:hover {
+  color: rgb(4 136 202);
+}
+a:hover:after {
+  width: 100%;
+}
+.sticky {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}

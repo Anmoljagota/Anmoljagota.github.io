@@ -1,0 +1,60 @@
+.about{
+    font-size: 35px;
+    font-weight: 700;
+/* border: 1px solid black; */
+}
+.Myimage{
+    /* border: 1px solid black; */
+    width: 27%;
+}
+.Myinfo{
+    /* border: 1px solid black; */
+    width: 70%;
+    text-align: left;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+/* .Myinfo>h1{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    max-width: 0 auto;
+    letter-spacing: .15em;
+    animation: typing 3.5s steps(30,end),
+    blink-text .5s step-end infinite;
+
+}
+@keyframes typing {
+    from{
+        width:0;
+    }
+    to {
+        width:100%;
+    }
+}
+@keyframes blink-text{
+    from,
+    to{
+        border-color: transparent;
+    }
+    50%{
+        border-color: orange;
+    }
+} */
+.wraper{
+    display: inline-block;
+}
+.fixedtxt{
+
+}
+.movingtxt{
+    margin-left: 3px;
+    height: 90px;
+    line-height: 90px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.flex{
+    display: flex;
+}

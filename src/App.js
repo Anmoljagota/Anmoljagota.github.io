@@ -1,10 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-
+import AllRoutes from './Components/AllRoutes';
+import Home from './Headers/Home';
+import Navbar from './Components/Navbar';
 function App() {
   return (
     <div className="App">
-      <h1>testing</h1>
+      <Navbar/>
+      {/* <h1>testing</h1> */}
+      <Home/>
+      <AllRoutes/>
+  
     </div>
   );
 }
