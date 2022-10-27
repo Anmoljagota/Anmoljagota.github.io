@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.a1f03e0d.css",
-    "main.js": "/static/js/main.9d450b21.js",
+    "main.css": "/static/css/main.28266073.css",
+    "main.js": "/static/js/main.329567ea.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Anmol.jpg": "/static/media/Anmol.c6c3f749b973f5799145.jpg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/index.html",
-    "main.a1f03e0d.css.map": "/static/css/main.a1f03e0d.css.map",
-    "main.9d450b21.js.map": "/static/js/main.9d450b21.js.map",
+    "main.28266073.css.map": "/static/css/main.28266073.css.map",
+    "main.329567ea.js.map": "/static/js/main.329567ea.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a1f03e0d.css",
-    "static/js/main.9d450b21.js"
+    "static/css/main.28266073.css",
+    "static/js/main.329567ea.js"
   ]
 }
