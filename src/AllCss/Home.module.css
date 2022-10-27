@@ -58,3 +58,9 @@ font-weight: 500;
 .cl{
     color:rgb(4 136 202);
 }
+.flex{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    background-color: rgb(226, 219, 219);
+}

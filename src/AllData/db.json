@@ -18,5 +18,81 @@
       "img": "https://avatars.githubusercontent.com/u/101393363?v=4",
       "title": "Hi My name is Anmol Jagota and i am from Nangal-dam Punjab (India). I have completed my graduation in Bachelor of computer application from Himachal Pardesh University (HPU) Hi My name is Anmol Jagota and i am from Nangal-dam Punjab (India). I have completed my graduation in Bachelor of computer application from Himachal Pardesh University (HPU) Hi My name is Anmol Jagota and i am from Nangal-dam Punjab (India). I have completed my graduation in Bachelor of computer application from Himachal Pardesh University (HPU) Hi My name is Anmol Jagota and i am from Nangal-dam Punjab (India). I have completed my graduation in Bachelor of computer application from Himachal Pardesh University (HPU) Hi My name is Anmol Jagota and i am from Nangal-dam Punjab (India). I have completed my graduation in Bachelor of computer application from Himachal Pardesh University (HPU) "
     }
+  ],
+  "education": [
+    {
+      "img": "https://scontent.fdel13-1.fna.fbcdn.net/v/t39.30808-6/241033520_319887669932076_7238392704319797490_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=aBI1nsrhb_kAX9kVkmL&_nc_ht=scontent.fdel13-1.fna&oh=00_AT-6oXF7m0dmeq8TA5736jZmQC-PCumD-tgP4vUOFGKqGQ&oe=635E25D5",
+      "title": "Fertilizer School",
+      "palace": "Naya Nangal Punjab (India)",
+      "field": "Science"
+    },
+    {
+      "img": "https://www.tribuneindia.com/2013/20131010/him4.jpg",
+      "title": "SVSD PG College Bhatoli (H.P)",
+      "palace": "Ajouli Modh Himachal Pardesh",
+      "field": "BCA"
+    },
+    {
+      "img": "https://images.yourstory.com/cs/images/companies/Masai-1597756802133.jpg?fm=png&auto=formatar=1:1&mode=fill&fill=solid",
+      "title": "Masai School",
+      "palace": "Koramangala, Bengaluru, Karnataka"
+      
+    }
+  ],
+  "images":[
+    {
+      "imgtec":"https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/html.png"
+    },
+    {
+      "imgtec":"https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/css.png"
+    },{
+      "imgtec":"https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/redux.png"
+    },
+    {
+      "imgtec":"https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/react.png"
+    },
+    {
+      "imgtec":"https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/js.png"
+    },
+    {
+      "imgtec":"https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/mongodb.png"
+    },
+    {
+      "imgtec":"https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/npm.png"
+    },
+    {
+      "imgtec":"https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/git.png"
+    },
+    {
+      "imgtec":"https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/node.png"
+    },
+    {
+      "imgtec":"https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/netlify.png"
+    },
+    {
+      "imgtec":"https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/chakra-iii.png"
+    },
+    {
+      "imgtec":"https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/mongoose-ii.png"
+    },
+    {
+      "imgtec":"https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/babel.png"
+    },
+    {
+      "imgtec":"https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/router-ii.png"
+    },
+    {
+      "imgtec":"https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/heroku-iii.png"
+    },
+    {
+      "imgtec":"https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/express-ii.png"
+    },
+    {
+      "imgtec":"https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/vite.png"
+    },
+    {
+      "imgtec":"https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/postman.png"
+    }
   ]
+
 }

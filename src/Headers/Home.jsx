@@ -2,6 +2,7 @@ import React from "react";
 import Styles from "../AllCss/Home.module.css";
 import alldata from "../AllData/db.json";
 import { Link } from "react-router-dom";
+import Education from "./Education";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import {
   Box,
@@ -13,6 +14,7 @@ import {
   Text,
 } from "@chakra-ui/react";
 import About from "./About";
+import Techstack from "../Components/Techstack";
 const { data } = alldata;
 console.log(data);
 const Home = () => {
@@ -77,6 +79,8 @@ const Home = () => {
     </Box>
     <br/><br/><br/><br/><br/><br/><br/><br/><br/>
     <About/>
+    <Education/>
+    <Techstack/>
     </Box>
   );
 };

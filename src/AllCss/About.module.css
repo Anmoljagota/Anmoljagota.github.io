@@ -1,60 +1,58 @@
-.about{
-    font-size: 35px;
-    font-weight: 700;
-/* border: 1px solid black; */
-}
-.Myimage{
-    /* border: 1px solid black; */
-    width: 27%;
-}
-.Myinfo{
-    /* border: 1px solid black; */
-    width: 70%;
-    text-align: left;
-     display: flex;
-    justify-content: center;
-    align-items: center; 
-}
-/* .Myinfo>h1{
-    overflow: hidden;
-    border-right: .15em solid orange;
-    white-space: nowrap;
-    max-width: 0 auto;
-    letter-spacing: .15em;
-    animation: typing 3.5s steps(30,end),
-    blink-text .5s step-end infinite;
+.about {
+  font-size: 35px;
+  font-weight: 700;
 
 }
-@keyframes typing {
-    from{
-        width:0;
-    }
-    to {
-        width:100%;
-    }
+.Myimage {
+  width: 27%;
 }
-@keyframes blink-text{
-    from,
-    to{
-        border-color: transparent;
-    }
-    50%{
-        border-color: orange;
-    }
+.Myinfo {
+  width: 70%;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wraper {
+  display: inline-block;
+}
+.movingtxt {
+  margin-left: 3px;
+  height: 90px;
+  line-height: 90px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.flex {
+  display: flex;
+  /* border: 1px solid black; */
+}
+.higher{
+    /* border: 1px solid black; */
+    width: 50%;
+}
+.images{
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+/* .minidiv{
+    border: 1px solid black;
 } */
-.wraper{
-    display: inline-block;
+.data{
+    margin-left: 25px;
 }
-.fixedtxt{
-
+.title{
+    color:rgb(4 136 202);
+    font-size: 22px;
+    font-weight: 500;
 }
-.movingtxt{
-    margin-left: 3px;
-    height: 90px;
-    line-height: 90px;
-    margin-bottom: 20px;
-    overflow: hidden;
+.palace{
+    color: black;
+    font-weight: 400;
 }
-.flex{
-    display: flex;
-}
+/* .field{
+    padding: 5px 35px 5px 35px;
+    background-color: grey;
+} */
