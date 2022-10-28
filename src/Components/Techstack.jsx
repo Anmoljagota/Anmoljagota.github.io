@@ -1,7 +1,6 @@
 import { Box, Image, SimpleGrid } from "@chakra-ui/react";
 import React, { useEffect } from "react";
 import Aos from "aos";
-// import { IconName } from "react-icons/ai";
 import "aos/dist/aos.css";
 import Styles from "../AllCss/tech.module.css";
 import data from "../AllData/db.json";
@@ -17,7 +16,7 @@ const Techstack = () => {
         Tech <span className={Styles.color}>Stack</span> & Tools
       </h1>
       <Box className={Styles.main}>
-        <SimpleGrid columns={[1, 3, 6]} spacing="25px" >
+        <SimpleGrid columns={[1, 3, 6]} spacing="25px">
           {images.map((skillsimages) => (
             <Box
               key={skillsimages.imgtec}

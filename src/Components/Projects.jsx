@@ -4,13 +4,14 @@ import image from "../utilits/lyst.png";
 import Styles from "../AllCss/tech.module.css";
 import data from "../AllData/db.json";
 import projectdata from "../AllData/Project.json";
+import Styles1 from "../AllCss/About.module.css";
 const Projects = () => {
   const { project_details } = projectdata;
   console.log(project_details);
   const { techstack } = data;
   return (
-    <Box>
-      <h2 data-aos="zoom in">
+    <Box style={{marginTop:"70px"}}>
+      <h2 data-aos="zoom in" className={Styles1.about}>
         Projects<span className={Styles.pro}>Clone</span>
       </h2>
       {project_details.map((projectitems) => (
@@ -22,7 +23,7 @@ const Projects = () => {
             data-aos="fade-up"
           >
             <Box className={Styles.projectimg}>
-              <Image src={image} w="100%" h="100%" />
+              <Image src={projectitems.image} w="100%" h="100%" />
             </Box>
             <Box className={Styles.projectinfo}>
               <Box className={Styles.infoinner}>
