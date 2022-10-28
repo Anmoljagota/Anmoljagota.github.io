@@ -93,6 +93,16 @@
     {
       "imgtec":"https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/logos/postman.png"
     }
+  ],
+  "skills":[
+    {
+      "title":"Problem solving mindset",
+      "img":""
+    }
+  ],
+  "techstack":[
+    {"img":"https://th.bing.com/th/id/OIP.GnRxA02S17P_vALwWSzQSgHaDt?pid=ImgDet&rs=1"}
+  
   ]
 
 }

@@ -4,6 +4,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Styles from "../AllCss/About.module.css";
 import Styles1 from "../AllCss/Home.module.css";
+import Styles2 from "../AllCss/tech.module.css";
 import data from "../AllData/db.json";
 const Education = () => {
     useEffect(() => {
@@ -12,7 +13,7 @@ const Education = () => {
   const { education } = data;
   return (
     <div>
-      <h1 className={Styles.about}>Education</h1>
+      <h1 className={Styles.about}>E<span className={Styles2.color}>d</span>u<span className={Styles2.color}>c</span>a<span className={Styles2.color}>t</span>i<span className={Styles2.color}>o</span>n</h1>
 
       <Stack className={Styles1.uppermain} style={{ height: "50vw" }} >
         {education.map((details) => (

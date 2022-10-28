@@ -7,7 +7,7 @@
   align-items: center;
   padding: 15px;
   background-color: white;
-  
+  border-radius: 15px;
 }
 .all {
   width: 100%;
@@ -19,14 +19,75 @@
   margin-top: 55px;
   background-color: rgb(226, 219, 219);
   padding: 40px;
+  border-radius: 15px;
 }
 .upper > h1 {
   font-size: 30px;
   font-weight: 500;
+  text-align: center;
 }
 .color {
   color: rgb(4 136 202);
+  
 }
 .upper {
   margin-top: 70px;
+}
+/* Project component css */
+.projectinfo{
+    /* border: 1px solid black; */
+    height: 75%;
+   width: 100%;
+}
+.projectmain{
+    /* border: 1px solid black; */
+    margin: auto;
+    width: 90%;
+    height: 20vw;
+    margin-top: 100px;
+}
+.projectimg{
+    /* border: 1px solid red; */
+    height: 75%;
+   width: 100%;
+}
+.infoinner{
+    width: 90%;
+    margin: auto;
+}
+.infoinner>h1{
+    color: rgb(4 136 202);
+    font-size: 30px;
+    font-weight: 500;
+}
+.data{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 450;
+    color: rgb(0, 0, 0);
+}
+.live{
+border:1px solid grey;
+background-color: rgb(244, 238, 238);
+}
+.live:hover{
+  background-color: yellow;
+}
+.grid{
+  background-color: rgb(244, 238, 238);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+}
+.projectmain>h2{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+.pro{
+  color: rgb(4 136 202);
+  margin-left: 8px;
 }

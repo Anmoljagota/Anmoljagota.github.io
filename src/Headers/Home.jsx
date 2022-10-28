@@ -4,6 +4,7 @@ import alldata from "../AllData/db.json";
 import { Link } from "react-router-dom";
 import Education from "./Education";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
+import Projects from "../Components/Projects";
 import {
   Box,
   Button,
@@ -14,12 +15,13 @@ import {
   Text,
 } from "@chakra-ui/react";
 import About from "./About";
+import Githubstats from "../Components/Githubstats";
 import Techstack from "../Components/Techstack";
 const { data } = alldata;
 console.log(data);
 const Home = () => {
   return (
-    <Box>
+    <Box h="300vw" border="1px solid black">
     <Box mt="60px">
       <Flex className={Styles.uppermain}>
         <Box className={Styles.summary}>
@@ -77,10 +79,12 @@ const Home = () => {
         </Box>
       </Flex>
     </Box>
-    <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
     <About/>
     <Education/>
     <Techstack/>
+    <Projects/>
+    <Githubstats/>
     </Box>
   );
 };

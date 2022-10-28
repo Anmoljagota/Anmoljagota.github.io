@@ -1,0 +1,22 @@
+{
+  "project_details": [
+    {
+      "title": "Lyst.com clone",
+      "description": "Lyst is a global e-commerce website that features a mix of established and emerging luxury brands accross womenswear , menswear , kidswear and everything else. Its created with HTML CSS and Javascript.",
+      "link": "https://clone-lyst.netlify.app/",
+      "github": "https://github.com/iammostak/lyst.com-clone"
+    },
+    {
+      "title": "Urban Company clone",
+      "description": "This is a Platform which provides user to purchase  step door- services like Hair-cut  , House repairing and one of the major Advantage of this website provide a a home therapy .",
+      "link": "https://rainbow-smakager-616752.netlify.app/final%20output/home",
+      "github": "https://github.com/NLucifer03/beneficial-stranger-9401"
+    },
+    {
+      "title": "Orbitz.com clone",
+      "description": "Orbitz.com is a travel fare aggregator website in which you can book any hotel , airlines ticket where you want to stay",
+      "link": "https://rainbow-smakager-616752.netlify.app/final%20output/home",
+      "github": "https://github.com/Anmoljagota/dead-juice-5954/tree/day2-/React-project"
+    }
+  ]
+}
