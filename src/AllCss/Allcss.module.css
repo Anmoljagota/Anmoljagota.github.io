@@ -50,3 +50,11 @@ a:hover:after {
   background-color: white;
   z-index: 5;
 }
+.name{
+  color:rgb(4 136 202);
+  font-size: 30px;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

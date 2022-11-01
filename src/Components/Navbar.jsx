@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import React from "react";
-import { Box } from "@chakra-ui/react";
+import { Box, Image } from "@chakra-ui/react";
 import Styles from "../AllCss/Allcss.module.css";
 import { Link } from "react-scroll";
 let info = [
@@ -15,7 +15,10 @@ const Navbar = () => {
   return (
     <Box className={Styles.sticky}>
       <Box className={Styles.MainBox}>
-        <Box>hlo</Box>
+        <Box className={Styles.name}>
+          Anmol Jagota
+          <Image src="https://cdn.lifehacker.ru/wp-content/uploads/2014/01/15053637-shutterstock_123609076.jpg" h="45px" w="130px"/>
+        </Box>
         <Box className={Styles.SecondBox}>
           {info.map((data) => (
             <NavLink
