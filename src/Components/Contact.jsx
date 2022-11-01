@@ -33,7 +33,7 @@ const Contact = () => {
   return (
     <Box marginTop="60px">
       <Box>
-        <h1 className={Styles.about}>Contact me</h1>
+        <h1 className={Styles.about} id="contact">Contact me</h1>
         <h1 className={Styles.touch}>Get in Touch</h1>
       </Box>
       <Container

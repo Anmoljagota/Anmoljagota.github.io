@@ -15,17 +15,17 @@ const About = () => {
   }, []);
   return (
     <div
-      style={{ height: "40vw", marginTop: "130px" }}
-      id="palwan"
+      style={{ height: "40vw", marginTop: "150px" }}
+    
       data-aos="zoom-in"
     >
-      <Box className={Styles1.uppermain}>
-        <h1 className={Styles.about}>
+      <Box className={Styles1.uppermain}  >
+        <h1 className={Styles.about}  id="palwan" mt="50px">
           About <span className={Styles2.color}>Me</span>
         </h1>
-        <Flex style={{ marginTop: "30px" }}>
+        <Flex style={{ marginTop: "80px" }}>
           <Box className={Styles.Myimage}>
-            <Image src={Anmolimage} w="450px" h="400px" borderRadius="30px" />
+            <Image src={Anmolimage} w="450px" h="350px" borderRadius="30px" />
           </Box>
           <Spacer />
           <Box className={Styles.Myinfo}>

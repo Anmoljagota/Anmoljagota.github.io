@@ -11,8 +11,8 @@ const Techstack = () => {
   const { images } = data;
   console.log(images);
   return (
-    <Box className={Styles.upper}>
-      <h1 data-aos="fade-up">
+    <Box className={Styles.upper} id="skill">
+      <h1 data-aos="fade-up" >
         Tech <span className={Styles.color}>Stack</span> & Tools
       </h1>
       <Box className={Styles.main}>

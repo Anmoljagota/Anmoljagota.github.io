@@ -11,7 +11,7 @@ const Projects = () => {
   const { techstack } = data;
   return (
     <Box style={{marginTop:"70px"}}>
-      <h2 data-aos="zoom in" className={Styles1.about}>
+      <h2 data-aos="zoom in" className={Styles1.about} id="project">
         Projects<span className={Styles.pro}>Clone</span>
       </h2>
       {project_details.map((projectitems) => (

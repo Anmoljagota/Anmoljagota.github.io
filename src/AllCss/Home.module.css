@@ -60,7 +60,11 @@ font-weight: 500;
 }
 .flex{
     display: flex;
-    align-items: center;
-    width: 50%;
+    width: 70%;
     background-color: rgb(226, 219, 219);
+}
+.education{
+    width: 70%;
+    margin-left: 70px;
+   
 }

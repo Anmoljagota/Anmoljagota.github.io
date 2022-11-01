@@ -9,14 +9,14 @@
 }
 .MainBox {
   border: 1px solid rgb(206, 200, 200);
-  padding: 25px;
+  padding: 8px;
   display: flex;
   justify-content: space-between;
 }
 .SecondBox {
   display: flex;
   justify-content: space-between;
-  /* border: 1px solid black; */
+  
   width: 50%;
   align-items: center;
   margin-right: 10%;
