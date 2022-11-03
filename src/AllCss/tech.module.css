@@ -1,7 +1,6 @@
 .images {
   height: 125px;
   width: 125px;
-  /* border:1px solid black; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,52 +27,52 @@
 }
 .color {
   color: rgb(4 136 202);
-  
 }
 .upper {
   margin-top: 70px;
 }
-/* Project component css */
-.projectinfo{
-    /* border: 1px solid black; */
-    height: 75%;
-   width: 100%;
+.projectinfo {
+  height: 75%;
+  width: 100%;
 }
-.projectmain{
-    /* border: 1px solid black; */
-    margin: auto;
-    width: 90%;
-    height: 20vw;
-    margin-top: 100px;
+.projectmain {
+  margin: auto;
+  width: 90%;
+  height: 20vw;
+  margin-top: 100px;
 }
-.projectimg{
-    /* border: 1px solid red; */
-    height: 75%;
-   width: 100%;
+.projectimg {
+  height: 75%;
+  width: 100%;
 }
-.infoinner{
-    width: 90%;
-    margin: auto;
+.infoinner {
+  width: 90%;
+  margin: auto;
 }
-.infoinner>h1{
-    color: rgb(4 136 202);
-    font-size: 30px;
-    font-weight: 500;
+.infoinner > h1 {
+  color: rgb(4 136 202);
+  font-size: 30px;
+  font-weight: 500;
 }
-.data{
-    margin-top: 10px;
-    font-size: 16px;
-    font-weight: 450;
-    color: rgb(0, 0, 0);
+.data {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 450;
+  color: rgb(0, 0, 0);
 }
-.live{
-border:1px solid grey;
-background-color: rgb(244, 238, 238);
+.live {
+  /* border:1px solid grey; */
+  font-weight: 500;
+  background-color: rgb(244, 238, 238);
+  border: 1px solid rgb(4 136 202);
+  border-radius: 20px;
+  padding: 8px 15px 8px 15px;
 }
-.live:hover{
-  background-color: yellow;
+.live:hover {
+  background-color: rgb(4 136 202);
+  font-size: 18px;
 }
-.grid{
+.grid {
   background-color: rgb(244, 238, 238);
   display: flex;
   justify-content: center;
@@ -82,12 +81,12 @@ background-color: rgb(244, 238, 238);
   height: 100%;
   margin-top: 40px;
 }
-.projectmain>h2{
+.projectmain > h2 {
   text-align: center;
   font-size: 30px;
   font-weight: 500;
 }
-.pro{
+.pro {
   color: rgb(4 136 202);
   margin-left: 8px;
 }

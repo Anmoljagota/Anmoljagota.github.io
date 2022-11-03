@@ -21,7 +21,7 @@
   ],
   "education": [
     {
-      "img": "https://scontent.fdel13-1.fna.fbcdn.net/v/t39.30808-6/241033520_319887669932076_7238392704319797490_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=aBI1nsrhb_kAX9kVkmL&_nc_ht=scontent.fdel13-1.fna&oh=00_AT-6oXF7m0dmeq8TA5736jZmQC-PCumD-tgP4vUOFGKqGQ&oe=635E25D5",
+      "img": "https://i.ytimg.com/vi/qsUZk9fXY7M/hqdefault.jpg",
       "title": "Fertilizer School",
       "palace": "Naya Nangal Punjab (India)",
       "field": "Science"
@@ -35,8 +35,8 @@
     {
       "img": "https://images.yourstory.com/cs/images/companies/Masai-1597756802133.jpg?fm=png&auto=formatar=1:1&mode=fill&fill=solid",
       "title": "Masai School",
-      "palace": "Koramangala, Bengaluru, Karnataka"
-      
+      "palace": "Koramangala, Bengaluru, Karnataka",
+      "field": "Full Stack Web Developer"
     }
   
   ],

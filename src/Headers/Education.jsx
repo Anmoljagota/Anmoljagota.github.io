@@ -12,7 +12,7 @@ const Education = () => {
   }, []);
   const { education } = data;
   return (
-    <div style={{ marginTop: "80px" }}>
+    <Box mt={{sm: '550px', md: '550px', lg: '80px'}} >
       <h1 className={Styles.about}>
         E<span className={Styles2.color}>d</span>u
         <span className={Styles2.color}>c</span>a
@@ -25,6 +25,7 @@ const Education = () => {
           {education.map((details) => (
             
               <Box
+              width={{sm: '100%', md: '100%', lg: '70%'}}
                 key={details.title}
                 className={Styles1.flex}
                 style={{
@@ -59,15 +60,15 @@ const Education = () => {
             
           ))}
         </Stack>
-        <Box style={{border:"1px solid black"}} mr="50px">
+        <Box mr="50px">
           <Image
-            src="https://thumbs.dreamstime.com/z/cute-boy-go-to-school-illustration-90163850.jpg"
-            h="40vw"
+            src="https://jayvaish.github.io/static/media/purpleTheme-girl.593f901e.svg"
+            h="50vw"
             w="70%"
           />
         </Box>
       </Box>
-    </div>
+    </Box>
   );
 };
 

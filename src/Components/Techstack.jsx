@@ -11,12 +11,12 @@ const Techstack = () => {
   const { images } = data;
   console.log(images);
   return (
-    <Box className={Styles.upper} id="skill">
+    <Box mt={{sm: '430px', md: '430px', lg: '70px'}} className={Styles.upper} id="skill">
       <h1 data-aos="fade-up" >
         Tech <span className={Styles.color}>Stack</span> & Tools
       </h1>
       <Box className={Styles.main}>
-        <SimpleGrid columns={[1, 3, 6]} spacing="25px">
+        <SimpleGrid columns={[3, 3, 6]} spacing="25px">
           {images.map((skillsimages) => (
             <Box
               key={skillsimages.imgtec}

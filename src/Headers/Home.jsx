@@ -4,6 +4,7 @@ import alldata from "../AllData/db.json";
 import Education from "./Education";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import Projects from "../Components/Projects";
+import { TypeAnimation } from "react-type-animation";
 import {
   Box,
   Button,
@@ -23,17 +24,17 @@ const Home = () => {
   return (
     <Box h="300vw">
       <Box mt="60px">
-        <Flex className={Styles.uppermain}>
-          <Box className={Styles.summary}>
+        <Box className={Styles.uppermain} display={{sm:"block",md:"block",lg:"flex"}} >
+          <Box className={Styles.summary} width={{sm:"100%",md:"100%"}}>
             Hi
             <img
               src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif"
               width="35"
             />
             , my name is
-            <span className={Styles.text}>Anmol Jagota</span>
+            <span className={Styles.text} >Anmol Jagota</span>
             <h1 className={Styles.profession}>Full Stack Web Developer</h1>
-            <Text fontSize="17px" lineHeight="30px" marginTop="10px">
+            <Text fontSize={{ sm: '12px', md: '15px', lg: '17px' }} textAlign={{sm: "center", md: "center"}}lineHeight="30px" marginTop="10px">
               with Technical Skills having a knowledge in Programming Language
               and Data Structure Algorithms. Knowing HTML CSS Javascript
               Bootstrap React Mongo DB Redux Chakra UI. made a some beautifull
@@ -49,8 +50,8 @@ const Home = () => {
                     <Image
                       key={images.img}
                       src={images.img}
-                      h="50px"
-                      w="200px"
+                      h={{sm: '30px', md: '40px', lg: '50px'}}
+                      w={{sm: '100px', md: '150px', lg: '200px'}}
                       borderRadius="full"
                       ml="10px"
                       mt="15px"
@@ -74,6 +75,7 @@ const Home = () => {
                 </Button>
               </a>
             </Box>
+           
           </Box>
           <Spacer />
           <Box className={Styles.image}>
@@ -86,7 +88,7 @@ const Home = () => {
               />
             </Center>
           </Box>
-        </Flex>
+        </Box>
       </Box>
 
       <About />

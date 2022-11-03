@@ -1,6 +1,7 @@
 import { Box, Button, Flex, Image, SimpleGrid, Stack } from "@chakra-ui/react";
 import React from "react";
-import image from "../utilits/lyst.png";
+import { BsGithub } from "react-icons/bs";
+import { BsFillCaretRightSquareFill } from "react-icons/bs";
 import Styles from "../AllCss/tech.module.css";
 import data from "../AllData/db.json";
 import projectdata from "../AllData/Project.json";
@@ -15,9 +16,10 @@ const Projects = () => {
         Projects<span className={Styles.pro}>Clone</span>
       </h2>
       {project_details.map((projectitems) => (
-        <div className={Styles.projectmain}>
+        <Box className={Styles.projectmain}  >
           <SimpleGrid
             columns={[1, 2, 2]}
+           
             spacing="40px"
             className={Styles.grid}
             data-aos="fade-up"
@@ -40,18 +42,24 @@ const Projects = () => {
                 </Box>
 
                 <a href={projectitems.link} target="_blank">
-                  <Button className={Styles.live}>Go to live</Button>
+                  <Button borderRadius="50px" _hover={{
+    background: "Blue 400",
+   color:"white"
+  }} font-weight="500" className={Styles.live}> <span style={{fontSize:"25px",marginRight:"10px"}}><BsFillCaretRightSquareFill/></span>Go to live</Button>
                 </a>
                 <a href={projectitems.github} target="_blank">
                   {" "}
-                  <Button className={Styles.live} marginLeft="25px">
-                    View code
+                  <Button borderRadius="50px" _hover={{
+    background: "Blue 400",
+   color:"white"
+  }} font-weight="500" className={Styles.live} marginLeft="25px">
+                  <span style={{fontSize:"25px",marginRight:"10px"}}><BsGithub/></span>View code
                   </Button>
                 </a>
               </Box>
             </Box>
           </SimpleGrid>
-        </div>
+        </Box>
       ))}
     </Box>
   );
