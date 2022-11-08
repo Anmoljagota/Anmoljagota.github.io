@@ -9,27 +9,28 @@ const Githubstats = () => {
       <h1 className={Styles2.about}>
         Github <span className={Styles1.color}>stats</span>
       </h1>
-      <Box display={{ sm: "block", md: "block", lg: "flex" }}>
+      <Box display={{ sm: "block", md: "block", lg: "flex" }} className={Styles.flex}>
         <Box>
           <Image
+            h="175px"
             src="https://github-readme-stats.vercel.app/api?username=anmoljagota&theme=react&hide_border=false&include_all_commits=true&count_private=false"
-            width={{ sm: "75%", md: "75%" }}
-            margin={{ sm: "auto", md: "auto" }}
-            mt={{ sm: "50px", md: "50px" }}
+            // width={{ sm: "75%", md: "75%" }}
+            // margin={{ sm: "auto", md: "auto" }}
+            // mt={{ sm: "50px", md: "50px" }}
           />
         </Box>
         <Box>
           <Image
-            h="195px"
+            h="175px"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=anmoljagota&theme=react&hide_border=false&include_all_commits=true&count_private=false&layout=compact"
-            height={{ sm: "232px", md: "232px" }}
-            margin={{ sm: "auto", md: "auto" }}
-            mt={{ sm: "50px", md: "50px" }}
+            // height={{ sm: "232px", md: "232px" }}
+            // margin={{ sm: "auto", md: "auto" }}
+            // mt={{ sm: "50px", md: "50px" }}
           />
         </Box>
       </Box>
       <Box>
-        <h1>Contributers</h1>
+        {/* <h1>Contributers</h1> */}
         <Box>
           <Image src="" />
         </Box>

@@ -3,6 +3,7 @@ import React from "react";
 import { Box, Image } from "@chakra-ui/react";
 import Styles from "../AllCss/Allcss.module.css";
 import { Link } from "react-scroll";
+import { ExternalLinkIcon } from "@chakra-ui/icons";
 const Navbar = () => {
   return (
     <Box className={Styles.sticky}>
@@ -23,7 +24,7 @@ const Navbar = () => {
             }}
             to="/"
           >
-            <Link activeClass="active" smooth spy >
+            <Link activeClass="active" smooth spy>
               Home{" "}
             </Link>
           </NavLink>
@@ -67,16 +68,19 @@ const Navbar = () => {
               Contact{" "}
             </Link>
           </NavLink>
-          <NavLink
+          {/* <NavLink
             className={({ isActive }) => {
               return isActive ? Styles.active : Styles.default;
             }}
             to="/resume"
-          >
-            <Link activeClass="active" smooth spy to="palwan">
-              Resume{" "}
-            </Link>
-          </NavLink>
+          > */}
+            <a
+              href="https://drive.google.com/file/d/1ikGGkMAo--CK5zBIwv4sCI6Ms3fmxa9M/view?usp=sharing"
+              target="_blank"
+            >
+              <Box>Resume  <ExternalLinkIcon ml="3px" /></Box>
+            </a>
+          {/* </NavLink> */}
         </Box>
       </Box>
     </Box>

@@ -34,7 +34,7 @@ const Home = () => {
             , my name is
             <span className={Styles.text} >Anmol Jagota</span>
             <h1 className={Styles.profession}>Full Stack Web Developer</h1>
-            <Text fontSize={{ sm: '12px', md: '15px', lg: '17px' }} textAlign={{sm: "center", md: "center"}}lineHeight="30px" marginTop="10px">
+            <Text fontSize={{ sm: '12px', md: '15px', lg: '17px' }} textAlign={{sm: "center", md: "center",lg:"left"}}lineHeight="30px" marginTop="10px">
               with Technical Skills having a knowledge in Programming Language
               and Data Structure Algorithms. Knowing HTML CSS Javascript
               Bootstrap React Mongo DB Redux Chakra UI. made a some beautifull

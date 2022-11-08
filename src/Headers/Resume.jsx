@@ -3,7 +3,7 @@ import React from 'react'
 const Resume = () => {
   return (
     <div>
-      i am resume
+      {/* i am resume */}
     </div>
   )
 }

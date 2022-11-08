@@ -31,7 +31,7 @@ import { BsLinkedin } from "react-icons/bs";
 import React from "react";
 const Contact = () => {
   return (
-    <Box marginTop="60px">
+    <Box marginTop="60px"  data-aos="zoom in">
       <Box>
         <h1 className={Styles.about} id="contact">Contact me</h1>
         <h1 className={Styles.touch}>Get in Touch</h1>
@@ -183,11 +183,11 @@ const Contact = () => {
             </Box>
           </Box>
         </Flex>
-        <Box className={Styles.black}>
+        {/* <Box className={Styles.black}>
           <Text fontSize={{ base: "sm", md: "18px" }}>
             @2022 All Rights Reserved made by Anmol jagota
           </Text>
-        </Box>
+        </Box> */}
       </Container>
     </Box>
   );

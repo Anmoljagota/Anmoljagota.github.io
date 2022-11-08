@@ -67,6 +67,7 @@
   border: 1px solid rgb(4 136 202);
   border-radius: 20px;
   padding: 8px 15px 8px 15px;
+
 }
 .live:hover {
   background-color: rgb(4 136 202);
@@ -80,6 +81,7 @@
   width: 100%;
   height: 100%;
   margin-top: 40px;
+  height: 300px;
 }
 .projectmain > h2 {
   text-align: center;

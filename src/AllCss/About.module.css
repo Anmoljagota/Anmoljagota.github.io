@@ -52,6 +52,7 @@
   text-align: center;
   color: red;
   font-size: 20px;
+  font-weight: 700;
 }
 .form {
   width: 60%;
@@ -75,4 +76,10 @@
   padding: 30px;
   text-align: center;
   color: white;
+}
+.run{
+  margin-top: 20px;
+  width: 70%;
+  font-size: 25px;
+  font-weight: 700;
 }
