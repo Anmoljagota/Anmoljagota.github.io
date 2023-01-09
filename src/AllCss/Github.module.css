@@ -1,9 +1,14 @@
 .flex{
-    display: flex;
+    /* display: flex; */
     justify-content: space-between;
     align-items: center;
     width: 75%;
     margin: auto;
     margin-top: 90px;
     gap: 20px;
+}
+.Styles1{
+    width: 40px;
+    margin: auto;
+    height: 290px;
 }

@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import Styles from "../AllCss/About.module.css";
 import Styles1 from "../AllCss/Home.module.css";
 import Styles2 from "../AllCss/tech.module.css";
+import cx from 'classnames'
 import { useEffect } from "react";
 import { Box, Flex, Image, Spacer } from "@chakra-ui/react";
 import Anmolimage from "../utilits/Anmol.jpg";
@@ -15,23 +16,25 @@ const About = () => {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div style={{ height: "40vw", marginTop: "150px" }} data-aos="zoom-in">
-      <Box className={Styles1.uppermain}>
+    <div className={ cx(Styles1.mobileabout, Styles.laptopabout)} data-aos="zoom-in">
+      <Box className={ cx(Styles1.uppermain, Styles1.mobileuppermain)}>
         <h1 className={Styles.about} id="palwan" mt="50px">
           About <span className={Styles2.color}>Me</span>
         </h1>
         <Flex
           style={{ marginTop: "80px" }}
-          display={{ sm: "block", md: "block", lg: "flex" }}
+          display={{ sm: "block", md: "flex", lg: "flex",base:"block" }}
+          className={Styles1.aboutpage}
+       
         >
-          <Box className={Styles.Myimage}>
-            <Image src={Anmolimage} w="450px" h="350px" borderRadius="30px" />
+          <Box   className={ cx(Styles.Myimage, Styles1.imagemobile)}>
+            <Image className={ cx(Styles.Myimage1, Styles1.imagemobile1)} src="https://github.com/Anmoljagota/Anmoljagota.github.io/blob/master/src/utilits/anmol3-removebg-preview%20crop.jpg?raw=true" height={{ sm: "250px",lg:"350px",md:"350px",base:"200px"}}   />
           </Box>
           <Spacer />
           <Box
-            className={Styles.Myinfo}
+           className={ cx(Styles.Myinfo, Styles1.textmobile)}
             width={{ sm: "100%", md: "100%", lg: "70%" }}
-            fontSize={{ sm: "18px", md: "18px", lg: "18px" }}
+            fontSize={{ sm: "12px", md: "14px", lg: "20px" }}
             textAlign={{ sm: "center", md: "center", lg: "left" }}
           >
             <Box fontSize="17px" fontWeight="600">{aboutdata[0].title}

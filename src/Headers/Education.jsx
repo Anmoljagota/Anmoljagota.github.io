@@ -1,5 +1,6 @@
 import { Box, Button, Image, Stack } from "@chakra-ui/react";
 import React, { useEffect } from "react";
+import cx from "classnames"
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Styles from "../AllCss/About.module.css";
@@ -12,7 +13,8 @@ const Education = () => {
   }, []);
   const { education } = data;
   return (
-    <Box mt={{sm: '550px', md: '550px', lg: '80px'}} >
+    <Box  className={cx(Styles1.mobilemaineducation, Styles1.mediummaineducation)} > 
+    {/* mt={{sm: '550px', md: '550px', lg: '80px'}} */}
       <h1 className={Styles.about}>
         E<span className={Styles2.color}>d</span>u
         <span className={Styles2.color}>c</span>a
@@ -20,14 +22,16 @@ const Education = () => {
         <span className={Styles2.color}>o</span>n
       </h1>
 
-      <Box style={{ display: "flex",justifyContent:"space-evenly",alignItems:"center" }}>
-        <Stack className={Styles1.education} style={{ height: "50vw" }}>
+      <Box  className={Styles1.innermain} style={{ display: "flex",justifyContent:"space-evenly",alignItems:"center" }}>
+        <Stack className={Styles1.education} >
           {education.map((details) => (
             
               <Box
-              width={{sm: '100%', md: '100%', lg: '70%'}}
+              width={{ md: '50%', lg: '50%'}}
+              // border="1px solid green"
                 key={details.title}
-                className={Styles1.flex}
+                // className={Styles1.flex}
+                className={cx(Styles1.flex, Styles1.cart)}
                 style={{
                   marginTop: "60px",
                   padding: "25px",
@@ -38,10 +42,11 @@ const Education = () => {
                 <Image
                   src={details.img}
                   alt="education error"
-                  className={Styles.images}
-                  border="1px solid red"
+              
+                  className={cx(Styles.images, Styles1.mobileimages)}
+                
                 />
-                <Box className={Styles.data} data-aos="zoom-in">
+                <Box  className={cx(Styles.data, Styles1.mobiledata)} data-aos="zoom-in">
                   <Box className={Styles.title}>{details.title}</Box>
                   <Box className={Styles.palace}>{details.palace}</Box>
                   <Box className={Styles.field}>
@@ -65,6 +70,7 @@ const Education = () => {
             src="https://jayvaish.github.io/static/media/purpleTheme-girl.593f901e.svg"
             h="50vw"
             w="70%"
+            className={cx(Styles1.school, Styles1.mediummaineducation1)}
           />
         </Box>
       </Box>

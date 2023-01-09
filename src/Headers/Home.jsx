@@ -4,7 +4,6 @@ import alldata from "../AllData/db.json";
 import Education from "./Education";
 import { ExternalLinkIcon } from "@chakra-ui/icons";
 import Projects from "../Components/Projects";
-import { TypeAnimation } from "react-type-animation";
 import {
   Box,
   Button,
@@ -18,23 +17,41 @@ import About from "./About";
 import Githubstats from "../Components/Githubstats";
 import Techstack from "../Components/Techstack";
 import Contact from "../Components/Contact";
+import cx from "classnames";
 const { data } = alldata;
 console.log(data);
 const Home = () => {
   return (
     <Box h="300vw">
-      <Box mt="60px">
-        <Box className={Styles.uppermain} display={{sm:"block",md:"block",lg:"flex"}} >
-          <Box className={Styles.summary} width={{sm:"100%",md:"100%"}}>
+      <Box mt="60px"   className={cx(Styles.mainhome,Styles.middlemainhome)}>
+        <Box
+          className={cx(Styles.uppermain,Styles.middleuppermain)}
+          // border="1px solid red"
+          display={{ sm: "block", md: "flex", lg: "flex" }}
+        >
+          <Box className={Styles.summary}>
+            
             Hi
             <img
               src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif"
               width="35"
             />
             , my name is
-            <span className={Styles.text} >Anmol Jagota</span>
-            <h1 className={Styles.profession}>Full Stack Web Developer</h1>
-            <Text fontSize={{ sm: '12px', md: '15px', lg: '17px' }} textAlign={{sm: "center", md: "center",lg:"left"}}lineHeight="30px" marginTop="10px">
+            <span  className={cx(Styles.text,Styles.middle)}>Anmol Jagota</span>
+            <h1
+              className={Styles.profession}
+              fontSize={{ sm: "23px", md: "15px", lg: "17px", base: "23px" }}
+            >
+              Full Stack Web Developer
+            </h1>
+            <Text
+              style={{ width: "95%" }}
+              fontSize={{ md: "14px",base:"15px", lg: "17px" }}
+            
+              lineHeight="30px"
+              marginTop="10px"
+              className={Styles.description}
+            >
               with Technical Skills having a knowledge in Programming Language
               and Data Structure Algorithms. Knowing HTML CSS Javascript
               Bootstrap React Mongo DB Redux Chakra UI. made a some beautifull
@@ -50,10 +67,11 @@ const Home = () => {
                     <Image
                       key={images.img}
                       src={images.img}
-                      h={{sm: '30px', md: '40px', lg: '50px'}}
-                      w={{sm: '100px', md: '150px', lg: '200px'}}
+                      className={Styles.social}
+                      height={{md: "45px", lg: "45px", base: "45px" }}
                       borderRadius="full"
-                      ml="10px"
+                      // ml="10px"
+                     
                       mt="15px"
                     />
                   </a>
@@ -65,9 +83,8 @@ const Home = () => {
               >
                 {" "}
                 <Button
-                  className={Styles.bg}
+                  className={cx(Styles.bg)}
                   colorScheme="blue"
-                  size="lg"
                   borderRadius="10px"
                 >
                   Resume
@@ -75,7 +92,6 @@ const Home = () => {
                 </Button>
               </a>
             </Box>
-           
           </Box>
           <Spacer />
           <Box className={Styles.image}>
@@ -84,6 +100,7 @@ const Home = () => {
                 boxSize="100%"
                 height="100%"
                 src="https://raw.githubusercontent.com/iammostak/iammostak.github.io/main/src/assets/coder.gif"
+                className={Styles.homeimage}
                 alt="Dan Abramov"
               />
             </Center>

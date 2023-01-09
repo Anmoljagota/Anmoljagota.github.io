@@ -31,7 +31,7 @@ import { BsLinkedin } from "react-icons/bs";
 import React from "react";
 const Contact = () => {
   return (
-    <Box marginTop="60px"  data-aos="zoom in">
+    <Box  marginTop="20px" data-aos="zoom in">
       <Box>
         <h1 className={Styles.about} id="contact">Contact me</h1>
         <h1 className={Styles.touch}>Get in Touch</h1>

@@ -1,70 +1,279 @@
-.summary{
-/* border: 1px solid black; */
-font-size: 45px;
-/* letter-spacing: 1px; */
-/* word-spacing: 5px; */
-width: 60%;
-/* text-align: left; */
-font-weight: 500;
+.summary {
+  /* border: 1px solid black; */
+  font-size: 45px;
+  /* letter-spacing: 1px; */
+  /* word-spacing: 5px; */
+  width: 60%;
+  /* border: 1px solid black; */
+  /* text-align: left; */
+  font-weight: 500;
 }
-.summary img{
-    display: inline;
+.github {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.uppermain{
-    margin: auto;
+.summary img {
+  display: inline;
+}
+.uppermain {
+  margin: auto;
+  /* border: 1px solid black; */
+  width: 90%;
+}
+.text {
+  font-size: 45px;
+  color: rgb(4 136 202);
+  font-weight: 500;
+  margin-left: 8px;
+}
+.image {
+  width: 40%;
+}
+.profession {
+  font-size: 30px;
+  position: relative;
+}
+.profession::before {
+  content: "Full Stack Web Developer";
+  position: absolute;
+  width: 100%;
+  color: rgb(4 136 202);
+  top: 0;
+  left: 0;
+  bottom: 0;
+  /* border-right: 0.1rem solid #0de065; */
+  animation: slide 3s linear infinite;
+  -webkit-animation: slide 3s linear infinite;
+  overflow: hidden;
+}
+@keyframes slide {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 60%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+.bg {
+  background-color: rgb(4 136 202);
+}
+.cl {
+  color: rgb(4 136 202);
+}
+.flex {
+  display: flex;
+  width: 70%;
+  background-color: rgb(226, 219, 219);
+}
+.education {
+  width: 100%;
+  margin-left: 70px;
+}
+@media only screen and (max-width: 415px) {
+  .description {
+    font-size: 10px;
     /* border: 1px solid black; */
-    width: 90%;
+    /* width: 100%; */
+    line-height: 15px;
+  }
 }
-.text{
-    font-size: 45px;
-    color:rgb(4 136 202);
-    font-weight: 500;
-    margin-left: 8px;
-}
-.image{
-    width:40%;
-}
-.profession{
-    font-size: 30px;
-    position: relative;
-}
-.profession::before{
-    content: "Full Stack Web Developer";
-    position: absolute;
+@media only screen and (max-width: 500px) {
+  .uppermain {
+    /* border: 1px solid red; */
     width: 100%;
-    color:rgb(4 136 202);
-    top:0;
-    left: 0;
-    bottom: 0;
-    /* border-right: 0.1rem solid #0de065; */
-    animation: slide 3s linear infinite;
-    -webkit-animation: slide 3s linear infinite;
-    overflow: hidden;
+    height: 200px;
+  }
 }
-@keyframes slide{
-    0%{
-        width: 0%;
-    }
-    50%{
-        width: 60%;
-    }
-    100%{
-        width: 0%;
-    }
-}
-.bg{
-    background-color: rgb(4 136 202);
-}
-.cl{
-    color:rgb(4 136 202);
-}
-.flex{
+@media (min-width: 0px) and (max-width: 582px) {
+  .aboutpage {
+    /* border: 1px solid blue; */
+    margin-top: 120px;
+  }
+  .summary {
+    height: 170px;
+    width: 100%;
+    font-size: 20px;
+  }
+  .text {
+    font-size: 20px;
+  }
+  .profession {
+    font-size: 20px;
+  }
+  .description {
+    font-size: 12px;
+  }
+  .homeimage {
+    display: none;
+  }
+  .mainhome {
+    /* border:1px solid black; */
+    width: 90%;
+    margin: auto;
+    height: 440px;
+  }
+  .social {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+  }
+  .bar {
+    /* border: 1px solid black; */
+    font-size: 10px;
+    margin-top: 10px;
+    /* width: 40px; */
+  }
+  /* .mainabout{
+    border: 1px solid blue;
+    height: 400px;
+  } */
+  .mobileabout {
+    /* border: 1px solid red; */
+    margin-top: 50px;
+  }
+  .mobileuppermain {
+    /* border: 1px solid blue; */
+    height: 70px;
+    width: 90%;
+    margin: auto;
+  }
+  .imagemobile {
     display: flex;
-    width: 70%;
-    background-color: rgb(226, 219, 219);
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 80px;
+  }
+  .imagemobile1 {
+    width: 50%;
+    height: 150px;
+  }
+  .textmobile {
+    /* border: 1px solid; */
+    width: 100%;
+    text-align: center;
+    margin-top: 90px;
+  }
+  .mobilemaineducation {
+    /* border: 1px solid red; */
+    height: 1100px;
+
+    margin-top: 680px;
+    width: 90%;
+  }
+  .innermain {
+    /* border: 1px solid black; */
+    height: 100%;
+    width: 100%;
+  }
+  .cart {
+    /* border: 1px solid blue; */
+    width: 100%;
+    display: block;
+    margin-right: 40px;
+    margin-top: 0px;
+  }
+  .school {
+    display: none;
+  }
+  .mobileimages {
+    width: 40%;
+    margin-left: 75px;
+  }
+  .mobiledata {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 10px;
+  }
+  .mobilegrid {
+    width: 100%;
+    /* border: 1px solid yellow; */
+    /* padding: -80px; */
+    /* width:100% */
+
+    margin-right: 30px;
+    /* background-color: red; */
+  }
+  .cardimages {
+    width: 100%;
+    /* border: 1px solid blue; */
+  }
+  .mobileimages1 {
+    width: 100%;
+    height: 130px;
+    /* border: 1px solid red; */
+  }
+  .middlegridimages {
+    width: 100%;
+    height: 130px;
+  }
+
+  .calendarmobile {
+    border: 1px solid red;
+    margin: 0px;
+  }
+
+  .github {
+    border: 1px solid red;
+    margin-top: 0px;
+
+    margin-top: 60px;
+  }
+  mobileviewcalendar {
+    margin-top: 0px;
+    border: 1px solid black;
+    /* height: 800px; */
+  }
+  .calenderimage {
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobileviewcalendar1 {
+    border: 1px solid rebeccapurple;
+    width: 300px;
+    margin-top: 20px;
+  }
+  .mobileviewcalendar2 {
+    border: 1px solid purple;
+    width: 100%;
+  }
 }
-.education{
-    width: 70%;
-    margin-left: 70px;
-   
+@media (min-width: 583px) and (max-width: 1100px) {
+  .summary {
+    width: 100%;
+    font-size: 30px;
+    /* border: 1px solid red; */
+  }
+  .middletext {
+    font-size: 30px;
+  }
+  .mediummaineducation {
+    margin-top: 120px;
+    /* border: 1px solid blue; */
+  }
+  .mediummaineducation1 {
+    margin-top: 0px;
+    /* border: 1px solid blue; */
+  }
+
+  /* .middleuppermain{
+    display: flex;
+  } */
+}
+.statsoriginal {
+  /* margin-top: 50px; */
+  /* margin-top: 40px; */
+}
+.statsmobile {
+  width: 100%;
+  /* margin-bottom: 150px; */
 }

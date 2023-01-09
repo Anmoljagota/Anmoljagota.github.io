@@ -13,7 +13,7 @@
   align-items: center;
   font-size: 18px;
   font-weight: 450;
-  line-height: 30px;
+  line-height: 35px;
 }
 .wraper {
   display: inline-block;
@@ -56,7 +56,7 @@
 }
 .form {
   width: 60%;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   height: 40vw;
   margin: auto;
   background-color: rgb(231, 77, 77);
@@ -65,7 +65,7 @@
   align-items: center;
 }
 .fill {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   background-color: white;
   width: 40%;
   height: 70%;
@@ -82,4 +82,13 @@
   width: 70%;
   font-size: 25px;
   font-weight: 700;
+}
+.laptopabout{
+  height: 40vw;
+  margin-top: 150px;
+}
+.Myimage1{
+  width: 270px;
+  height: 350px;
+  border-radius: 30px;
 }

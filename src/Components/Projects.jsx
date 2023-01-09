@@ -18,7 +18,7 @@ const Projects = () => {
       {project_details.map((projectitems) => (
         <Box className={Styles.projectmain}  >
           <SimpleGrid
-            columns={[1, 2, 2]}
+            columns={[1, 1, 2]}
            
             spacing="40px"
             className={Styles.grid}
@@ -29,7 +29,7 @@ const Projects = () => {
             </Box>
             <Box className={Styles.projectinfo}>
               <Box className={Styles.infoinner}>
-                <h1 style={{ textAlign: "center" }}>{projectitems.title}</h1>
+                <h1 style={{ textAlign: "center"}} >{projectitems.title}</h1>
                 <Box className={Styles.data}>
                   {projectitems.description}
                   <Flex h="70px" w="100px">
@@ -52,7 +52,7 @@ const Projects = () => {
                   <Button borderRadius="50px" _hover={{
     background: "Blue 400",
    color:"white"
-  }} font-weight="500" className={Styles.live} marginLeft="25px">
+  }} font-weight="500" className={Styles.live} >
                   <span style={{fontSize:"25px",marginRight:"10px"}}><BsGithub/></span>View code
                   </Button>
                 </a>
