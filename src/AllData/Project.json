@@ -15,6 +15,13 @@
       "image":"https://github.com/Anmoljagota/Anmoljagota.github.io/blob/master/src/utilits/Screenshot%20(2142).png?raw=true"
     },
     {
+      "title": "Shopify.com clone",
+      "description": "Shopify is a e-commerce website from where we can Purchase a western and indian wear. Its created with HTML CSS and Javascript ReactJs nodeJs MongoDB Express Chakra ui and Material ui.",
+      "link": "https://clone-lyst.netlify.app/",
+      "github": "https://github.com/iammostak/lyst.com-clone",
+      "image":"https://github.com/Anmoljagota/Anmoljagota.github.io/blob/master/src/utilits/lyst.png?raw=true"
+    },
+    {
       "title": "Orbitz.com clone",
       "description": "Orbitz.com is a travel fare aggregator website in which you can book any hotel , airlines ticket where you want to stay",
       "link": "https://rainbow-smakager-616752.netlify.app/final%20output/home",

@@ -15,7 +15,7 @@ const Education = () => {
   return (
     <Box  className={cx(Styles1.mobilemaineducation, Styles1.mediummaineducation)} > 
     {/* mt={{sm: '550px', md: '550px', lg: '80px'}} */}
-      <h1 className={Styles.about}>
+      <h1 className={Styles.about} >
         E<span className={Styles2.color}>d</span>u
         <span className={Styles2.color}>c</span>a
         <span className={Styles2.color}>t</span>i

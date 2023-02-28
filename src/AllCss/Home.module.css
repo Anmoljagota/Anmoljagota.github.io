@@ -134,7 +134,7 @@
   } */
   .mobileabout {
     /* border: 1px solid red; */
-    margin-top: 50px;
+    margin-top: 150px;
   }
   .mobileuppermain {
     /* border: 1px solid blue; */
@@ -162,6 +162,7 @@
   }
   .mobilemaineducation {
     /* border: 1px solid red; */
+    /* margin-top: 50px; */
     height: 1100px;
 
     margin-top: 680px;
@@ -215,32 +216,28 @@
   }
 
   .calendarmobile {
-    border: 1px solid red;
     margin: 0px;
   }
 
   .github {
-    border: 1px solid red;
     margin-top: 0px;
 
     margin-top: 60px;
   }
   mobileviewcalendar {
     margin-top: 0px;
-    border: 1px solid black;
     /* height: 800px; */
   }
   .calenderimage {
-    border: 1px solid black;
-
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .mobileviewcalendar1 {
     border: 1px solid rebeccapurple;
-    width: 300px;
+    width: 100%;
     margin-top: 20px;
+   
   }
   .mobileviewcalendar2 {
     border: 1px solid purple;
@@ -265,14 +262,9 @@
     /* border: 1px solid blue; */
   }
 
-  /* .middleuppermain{
-    display: flex;
-  } */
+  
 }
-.statsoriginal {
-  /* margin-top: 50px; */
-  /* margin-top: 40px; */
-}
+
 .statsmobile {
   width: 100%;
   /* margin-bottom: 150px; */
