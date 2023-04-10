@@ -22,14 +22,15 @@ const { data } = alldata;
 console.log(data);
 const Home = () => {
   return (
-    <Box h="300vw">
-      <Box mt="60px"   className={cx(Styles.mainhome,Styles.middlemainhome)}>
+    <>
+      <Box mt="60px"   className={cx(Styles.mainhome,Styles.middlemainhome)} height="auto">
         <Box
           className={cx(Styles.uppermain,Styles.middleuppermain)}
-          // border="1px solid red"
+         
+          height="auto"
           display={{ sm: "block", md: "flex", lg: "flex" }}
         >
-          <Box className={Styles.summary}>
+          <Box className={Styles.summary}   height="auto">
             
             Hi
             <img
@@ -37,7 +38,7 @@ const Home = () => {
               width="35"
             />
             , my name is
-            <span  className={cx(Styles.text,Styles.middle)}>Anmol Jagota</span>
+            <span  className={cx(Styles.text,Styles.middle)}>Anmol <span className={Styles.surname}>Jagota</span></span>
             <h1
               className={Styles.profession}
               fontSize={{ sm: "23px", md: "15px", lg: "17px", base: "23px" }}
@@ -46,10 +47,11 @@ const Home = () => {
             </h1>
             <Text
               style={{ width: "95%" }}
-              fontSize={{ md: "14px",base:"15px", lg: "17px" }}
-            
+              fontSize={{ md: "15px",base:"16px", lg: "19px" }}
+          
               lineHeight="30px"
               marginTop="10px"
+            
               className={Styles.description}
             >
               with Technical Skills having a knowledge in Programming Language
@@ -59,7 +61,7 @@ const Home = () => {
               mostly focused on writing a clean elegant and efficient code.I am
               constantly working to learn new things and improving my skills.
             </Text>
-            <Box w="50px" h="50px">
+            <Box >
               <Flex w="120px" gap="10px">
                 {data.map((images) => (
                   <a href={images.link} target="_blank">
@@ -71,6 +73,7 @@ const Home = () => {
                       height={{md: "45px", lg: "45px", base: "45px" }}
                       borderRadius="full"
                       // ml="10px"
+                     
                      
                       mt="15px"
                     />
@@ -94,7 +97,7 @@ const Home = () => {
             </Box>
           </Box>
           <Spacer />
-          <Box className={Styles.image}>
+          <Box className={Styles.image} >
             <Center>
               <Image
                 boxSize="100%"
@@ -107,14 +110,16 @@ const Home = () => {
           </Box>
         </Box>
       </Box>
+<Box>
 
       <About />
+</Box>
       <Education />
       <Techstack />
       <Projects />
       <Githubstats />
       <Contact />
-    </Box>
+    </>
   );
 };
 

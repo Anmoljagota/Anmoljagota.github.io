@@ -5,7 +5,7 @@ import "aos/dist/aos.css";
 import Styles from "../AllCss/About.module.css";
 import Styles1 from "../AllCss/Home.module.css";
 import Styles2 from "../AllCss/tech.module.css";
-import cx from 'classnames'
+import cx from "classnames";
 import { useEffect } from "react";
 import { Box, Flex, Image, Spacer } from "@chakra-ui/react";
 import Anmolimage from "../utilits/Anmol.jpg";
@@ -16,75 +16,100 @@ const About = () => {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div className={ cx(Styles1.mobileabout, Styles.laptopabout)} data-aos="zoom-in">
-      <Box className={ cx(Styles1.uppermain, Styles1.mobileuppermain)}>
+    <div
+     
+      data-aos="zoom-in"
+      style={{ marginTop:"100px" , height:"auto"}}
+    >
+      <Box className={cx(Styles1.uppermain, Styles1.mobileuppermain)}  height="auto">
         <h1 className={Styles.about} id="palwan" mt="50px">
           About <span className={Styles2.color}>Me</span>
         </h1>
-        <Flex
+        <Box
           style={{ marginTop: "80px" }}
-          display={{ sm: "block", md: "flex", lg: "flex",base:"block" }}
-          className={Styles1.aboutpage}
-       
+          // display={{ sm: "block", md: "flex", lg: "flex", base: "block" }}
+          // className={Styles1.aboutpage}
+          // justifyContent="space-between"
+          // alignItems="center"
+          // border="5px solid blue"
+          className={Styles.twothings}
         >
-          <Box   className={ cx(Styles.Myimage, Styles1.imagemobile)}>
-            <Image className={ cx(Styles.Myimage1, Styles1.imagemobile1)} src="https://github.com/Anmoljagota/Anmoljagota.github.io/blob/master/src/utilits/anmol3-removebg-preview%20crop.jpg?raw=true" height={{ sm: "250px",lg:"350px",md:"350px",base:"200px"}}   />
+          <Box   height="auto"  className={Styles.Myimage}>
+            <Image
+              // className={cx(Styles.Myimage1, Styles1.imagemobile1)}
+              src="https://github.com/Anmoljagota/Anmoljagota.github.io/blob/master/src/utilits/anmol3-removebg-preview%20crop.jpg?raw=true"
+          //  className={Styles.MyImage}
+       
+          className={Styles.innermyimage}
+          // border="8px solid blue"
+          
+            />
           </Box>
           <Spacer />
           <Box
-           className={ cx(Styles.Myinfo, Styles1.textmobile)}
-            width={{ sm: "100%", md: "100%", lg: "70%" }}
+            // className={cx(Styles.Myinfo, Styles1.textmobile)}
+            
+            // width="65%"
+            className={Styles.Myinfomain}
             fontSize={{ sm: "12px", md: "14px", lg: "20px" }}
             textAlign={{ sm: "center", md: "center", lg: "left" }}
           >
-            <Box fontSize="17px" fontWeight="600">{aboutdata[0].title}
-            <TypeAnimation
-          className={Styles.run}
-          sequence={[
-            "> ",
-            2000,
-            "> Coding is hard",
-            500,
-            "> Coding is",
-            500,
-            "> Coding is fun",
-            2000,
-            "> Coding is ",
-            500,
-            "> Coding is love",
-            2000,
-            "> ",
-            1000,
-            "> So ",
-            500,
-            "> So, ",
-            1000,
-            "> So, I became a Coder. ",
-            2000,
-            "> So, ",
-            500,
-            "> ",
-            1000,
-            "> And ",
-            1000,
-            "> And, ",
-            1000,
-            "> And, Coding became my life. ",
-            3000,
-            () => {
-              console.log("Done typing!");
-            },
-          ]}
-          wrapper="div"
-          cursor={true}
-          repeat={Infinity}
-          // className={styles.typing}
-        />
+            <Box  fontWeight="480" className={Styles.myinformation}  height="80%">
+              Hi My name is <span>Anmol Jagota</span> and i am  {" "}
+            from  <span>Nangal-dam Punjab (India)</span>. I have completed my
+              graduation in <span>Bachelor of computer application</span>
+             <span style={{ marginLeft:"3px" , fontWeight:"480px"}}>from</span>  <span>Himachal Pardesh University (HPU)</span>. now i joined
+              a<span>Masai School</span> which offers a full time course on{" "}
+              <span>Full Stack Web Developer</span>. here i got alot of
+              knowledge from my instructor and one of the best thing here i
+              improve my communication skills . they provide a extra activity to
+              improve communication skills . I get hands-on experience in
+              learning <span>frontend and backend</span> technologies.
+              <TypeAnimation
+                className={Styles.run}
+                sequence={[
+                  "> ",
+                  2000,
+                  "> Coding is hard",
+                  500,
+                  "> Coding is",
+                  500,
+                  "> Coding is fun",
+                  2000,
+                  "> Coding is ",
+                  500,
+                  "> Coding is love",
+                  2000,
+                  "> ",
+                  1000,
+                  "> So ",
+                  500,
+                  "> So, ",
+                  1000,
+                  "> So, I became a Coder. ",
+                  2000,
+                  "> So, ",
+                  500,
+                  "> ",
+                  1000,
+                  "> And ",
+                  1000,
+                  "> And, ",
+                  1000,
+                  "> And, Coding became my life. ",
+                  3000,
+                  () => {
+                    console.log("Done typing!");
+                  },
+                ]}
+                wrapper="div"
+                cursor={true}
+                repeat={Infinity}
+                // className={styles.typing}
+              />
             </Box>
-            
           </Box>
-        </Flex>
-        
+        </Box>
       </Box>
     </div>
   );
