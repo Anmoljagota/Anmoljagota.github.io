@@ -81,8 +81,8 @@ const Home = () => {
                 ))}
               </Flex>
               <a
-                href="https://drive.google.com/file/d/1lO7hKiBKArT46I8oqwwx89gf798ZHdq9/view?usp=sharing"
-                target="_blank"
+              href="https://drive.google.com/file/d/1lO7hKiBKArT46I8oqwwx89gf798ZHdq9/view?usp=sharing" download={true}
+                // target="_blank"
               >
                 {" "}
                 <Button

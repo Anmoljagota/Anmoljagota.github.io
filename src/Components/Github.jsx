@@ -1,4 +1,4 @@
-import { StylesProvider } from "@chakra-ui/react";
+import { Box, StylesProvider } from "@chakra-ui/react";
 import React from "react";
 import Styles1 from "../AllCss/Github.module.css";
 import cx from "classnames";
@@ -8,9 +8,9 @@ const Stats = () => {
   return (
     // streak
     <div
-      style={{ marginTop: "20px" }}
+      style={{ marginTop: "20px"}}
       className={Styles.mobileviewcalendar}
-      // border="1px solid black"
+     
     >
       <div className={cx(Styles1.calender, Styles.calenderimage)}>
         <a href="https://github.com/saurabh0413">
@@ -29,16 +29,24 @@ const Stats = () => {
 
       <div
         style={{
-          width: "60%",
+          width: "100%",
           marginTop: "20px ",
-        }}
+        
+          position:"relative",
+          display:"flex",
+          justifyContent:"center",
+          alignItems:"center"
+         }}
       >
+        <Box  width="80%" >
+
         <a href="https://github.com/Anmoljagota">
           <img
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=Anmoljagota&theme=tokyonight"
             className={Styles.mobileviewcalendar1}
-          />
+            />
         </a>
+            </Box>
       </div>
     </div>
   );

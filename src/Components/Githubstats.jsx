@@ -14,8 +14,7 @@ const Githubstats = () => {
         mt={{ sm: "196px", md: "196px", lg: "100px" }}
         className={Styles.github}
         data-aos="fade-up"
-      
-      >
+>
         <h1 className={Styles2.about}>
           Github <span className={Styles1.color}>stats</span>
         </h1>
@@ -41,7 +40,7 @@ const Githubstats = () => {
           justifyContent="center"
           alignItems="center"
           flexDirection="column"
-       
+      
         >
           <Stats />
         </Box>
