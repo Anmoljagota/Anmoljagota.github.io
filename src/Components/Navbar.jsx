@@ -73,7 +73,7 @@ const Navbar = () => {
             </Link>
           </NavLink>
             <a
-              href="https://drive.google.com/file/d/1ikGGkMAo--CK5zBIwv4sCI6Ms3fmxa9M/view?usp=sharing"
+              href="../"
               target="_blank"
             >
               <Box>Resume  <ExternalLinkIcon ml="3px" /></Box>

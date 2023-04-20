@@ -70,10 +70,7 @@
   width: 70%;
   background-color: rgb(226, 219, 219);
 }
-.education {
-  width: 100%;
-  margin-left: 70px;
-}
+
 @media only screen and (max-width: 415px) {
   .description {
     font-size: 10px;
@@ -128,10 +125,7 @@
     margin-top: 10px;
     /* width: 40px; */
   }
-  /* .mainabout{
-    border: 1px solid blue;
-    height: 400px;
-  } */
+ 
   .mobileabout {
     /* border: 1px solid red; */
     margin-top: 150px;
@@ -173,20 +167,11 @@
     height: 100%;
     width: 100%;
   }
-  .cart {
-    /* border: 1px solid blue; */
-    width: 100%;
-    display: block;
-    margin-right: 40px;
-    margin-top: 0px;
-  }
+ 
   .school {
     display: none;
   }
-  .mobileimages {
-    width: 40%;
-    margin-left: 75px;
-  }
+ 
   .mobiledata {
     text-align: center;
     margin-top: 20px;
@@ -279,6 +264,7 @@
 
   /* margin-bottom: 150px; */
 }
+
 }
 
 @media (min-width: 0px) and (max-width: 377px){
@@ -291,3 +277,17 @@
     display: none;
   }
 }
+@media (min-width:0px) and (max-width:700px){
+  .cart {
+    /* border: 1px solid blue; */
+    width: 100%;
+    display: block;
+    margin-right: 40px;
+    margin-top: 0px;
+    text-align: center;
+  }
+ 
+  
+}
+
+

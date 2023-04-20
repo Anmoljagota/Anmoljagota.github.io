@@ -1,0 +1,322 @@
+.education {
+  height: 100%;
+  letter-spacing: 0.05em;
+  color: var(--secondary-c);
+  padding: 0 3%;
+}
+.all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.education > div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.05em;
+  color: var(--secondary-b);
+  padding: 3%;
+
+  font-size: 2em;
+}
+
+.ao {
+  color: var(--primary);
+  /* border:1px solid green */
+}
+
+.education > div:first-child > h1 {
+  font-weight: 600;
+
+  /* border: 1px solid blue; */
+}
+
+.education > div:last-child {
+  background-color: var(--default);
+  /* border: 3px solid green; */
+}
+
+.education > div:last-child > div {
+  width: 60%;
+  border-radius: 33px;
+  text-align: left;
+  box-sizing: border-box;
+  box-shadow: var(--shadow-dark);
+  background-color: var(--default-b);
+  margin-bottom: 5%;
+  /* border: 5px solid blue; */
+}
+
+.education > div:last-child > div:last-child {
+  margin-bottom: 0;
+}
+
+.education > div:last-child > div:nth-child(2),
+.education > div:last-child > div:nth-child(4) {
+  margin-left: 40%;
+}
+
+.institution {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4%;
+  padding: 2%;
+  line-height: 0.5;
+
+  color: var(--secondary-c);
+}
+
+.institution:nth-of-type(1),
+.institution:nth-of-type(3) {
+  flex-direction: row-reverse;
+  justify-content: start;
+}
+
+.institution > div:first-child > h3 {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.instImgDiv {
+  width: 20%;
+}
+
+.institution:nth-of-type(1) > .instImgDiv {
+  width: 25%;
+}
+
+.institution:nth-of-type(1) > .instImgDiv > img {
+  border: 2px solid tomato;
+}
+
+.instImgDiv > img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.institution h3 + div {
+  margin-bottom: 20px;
+}
+
+.skills {
+  height: 50%;
+  display: flex;
+  flex-flow: wrap;
+  font-size: 14px;
+  align-items: center;
+  justify-content: start;
+  gap: 7px;
+}
+
+.skills > div {
+  width: auto;
+  height: 26px;
+  padding: 0 2%;
+  display: flex;
+  gap: 4px;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid var(--default-c);
+  background-color: var(--default-a);
+  border-radius: 20px;
+}
+
+.skills > div:hover {
+  cursor: pointer;
+}
+
+.skills > div > img {
+  height: 14px;
+}
+
+.mySkills {
+  height: auto;
+  padding: 7% 5%;
+  letter-spacing: 0.05em;
+  cursor: default;
+  padding-bottom: 0;
+}
+
+.mySkills > div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary-b);
+  margin-bottom: 3%;
+}
+
+.mySkills h1 {
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.mySkills h1 > span {
+  color: var(--primary);
+}
+
+.mySkillsIcon {
+  font-size: 24px;
+  margin-left: 0.3em;
+}
+
+.skillsContainer {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 5.1%;
+  margin-top: 3%;
+  padding: 7% 3%;
+  padding-bottom: 18%;
+  margin-bottom: 10%;
+  background-color: var(--background-color);
+}
+
+.skillsContainer > div {
+  height: 120px;
+  box-sizing: border-box;
+  padding: 9% 0;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: var(--shadow-dark);
+  background-color: var(--default-a);
+}
+
+.skillsContainer > div:nth-last-child(10) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillsContainer > div:hover {
+  border: 1px solid var(--default-b);
+  box-shadow: none;
+}
+
+.skillsContainer > div > img {
+  height: 100%;
+}
+
+.skillsContainer + div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--secondary-b);
+  margin-bottom: 3%;
+}
+
+.giSkills {
+  font-size: 22px;
+  margin-left: 0.3em;
+}
+
+.softSkills {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.softSkills > button {
+  height: 36px;
+  font-size: 16px;
+  padding: 0 2%;
+  color: var(--default-a);
+  border: none;
+  margin: 4px;
+  letter-spacing: 0.05em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+  .education > div:last-child > div {
+    width: 76%;
+    border-radius: 24px;
+  }
+
+  .education > div:last-child > div:nth-child(2),
+  .education > div:last-child > div:nth-child(4) {
+    margin-left: 24%;
+  }
+
+  .institution > div:first-child > h3 {
+    font-size: 16px;
+  }
+
+  .institution h3 + div {
+    font-size: 14px;
+  }
+
+  .skills {
+    font-size: 17px;
+    gap: 5px;
+  }
+
+  .skills > div {
+    height: 22px;
+  }
+
+  .skillsContainer > div {
+    height: 70px;
+  }
+}
+
+@media all and (min-width: 260px) and (max-width: 767px) {
+  .education > div:last-child > div {
+    width: 100%;
+    border-radius: 17px;
+  }
+
+  .education > div:last-child > div:nth-child(2),
+  .education > div:last-child > div:nth-child(4) {
+    margin-left: 0;
+  }
+
+  .education .institution {
+    flex-flow: column-reverse;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  .institution > div:first-child > h3 {
+    font-size: 11px;
+  }
+
+  .institution h3 + div {
+    font-size: 10px;
+    margin-bottom: 4%;
+  }
+
+  .institution:nth-of-type(1) > .instImgDiv {
+    width: 17%;
+  }
+
+  .skills {
+    font-size: 9px;
+    gap: 5px;
+  }
+
+  .skills > div {
+    height: 17px;
+  }
+
+  .mySkills h1 {
+    font-size: 30px;
+  }
+
+  .skillsContainer {
+    grid-template-columns: repeat(3, 1fr);
+    padding-bottom: 103%;
+  }
+
+  .skillsContainer > div {
+    height: 70px;
+  }
+
+  .softSkills > button {
+    font-size: 10px;
+    height: 24px;
+  }
+}

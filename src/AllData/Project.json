@@ -19,7 +19,7 @@
       "description": "Shopify is a e-commerce website from where we can Purchase a western and indian wear. Its created with HTML CSS and Javascript ReactJs nodeJs MongoDB Express Chakra ui and Material ui.",
       "link": "https://clone-lyst.netlify.app/",
       "github": "https://github.com/iammostak/lyst.com-clone",
-      "image":"https://github.com/Anmoljagota/Anmoljagota.github.io/blob/master/src/utilits/lyst.png?raw=true"
+      "image":"https://github.com/Anmoljagota/Anmoljagota.github.io/blob/master/src/utilits/Screenshot%20(2507).png?raw=true"
     },
     {
       "title": "Orbitz.com clone",
@@ -27,13 +27,7 @@
       "link": "https://rainbow-smakager-616752.netlify.app/final%20output/home",
       "github": "https://github.com/Anmoljagota/dead-juice-5954/tree/day2-/React-project",
       "image":"https://github.com/Anmoljagota/Anmoljagota.github.io/blob/master/src/utilits/Screenshot%20(2144).png?raw=true"
-    },
-    {
-      "title": "Shopify.com clone",
-      "description": "Shopify.com is a E-commerce website where we can purchase several types of clothes form men women and kids",
-      "link": "https://frontend-nine-kappa-51.vercel.app",
-      "github": "https://github.com/Anmoljagota/PRD-project",
-      "image":"https://github.com/Anmoljagota/Anmoljagota.github.io/blob/master/src/utilits/Screenshot%20(2144).png?raw=true"
     }
+   
   ]
 }

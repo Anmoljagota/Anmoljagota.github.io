@@ -23,22 +23,26 @@ console.log(data);
 const Home = () => {
   return (
     <>
-      <Box mt="60px"   className={cx(Styles.mainhome,Styles.middlemainhome)} height="auto">
+      <Box
+        mt="60px"
+        className={cx(Styles.mainhome, Styles.middlemainhome)}
+        height="auto"
+      >
         <Box
-          className={cx(Styles.uppermain,Styles.middleuppermain)}
-         
+          className={cx(Styles.uppermain, Styles.middleuppermain)}
           height="auto"
           display={{ sm: "block", md: "flex", lg: "flex" }}
         >
-          <Box className={Styles.summary}   height="auto">
-            
+          <Box className={Styles.summary} height="auto">
             Hi
             <img
               src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif"
               width="35"
             />
             , my name is
-            <span  className={cx(Styles.text,Styles.middle)}>Anmol <span className={Styles.surname}>Jagota</span></span>
+            <span className={cx(Styles.text, Styles.middle)}>
+              Anmol <span className={Styles.surname}>Jagota</span>
+            </span>
             <h1
               className={Styles.profession}
               fontSize={{ sm: "23px", md: "15px", lg: "17px", base: "23px" }}
@@ -47,11 +51,9 @@ const Home = () => {
             </h1>
             <Text
               style={{ width: "95%" }}
-              fontSize={{ md: "15px",base:"16px", lg: "19px" }}
-          
+              fontSize={{ md: "15px", base: "16px", lg: "19px" }}
               lineHeight="30px"
               marginTop="10px"
-            
               className={Styles.description}
             >
               with Technical Skills having a knowledge in Programming Language
@@ -61,7 +63,7 @@ const Home = () => {
               mostly focused on writing a clean elegant and efficient code.I am
               constantly working to learn new things and improving my skills.
             </Text>
-            <Box >
+            <Box>
               <Flex w="120px" gap="10px">
                 {data.map((images) => (
                   <a href={images.link} target="_blank">
@@ -70,25 +72,29 @@ const Home = () => {
                       key={images.img}
                       src={images.img}
                       className={Styles.social}
-                      height={{md: "45px", lg: "45px", base: "45px" }}
+                      height={{ md: "45px", lg: "45px", base: "45px" }}
                       borderRadius="full"
                       // ml="10px"
-                     
-                     
+
                       mt="15px"
                     />
                   </a>
                 ))}
               </Flex>
-              <a
-              href="https://drive.google.com/file/d/1lO7hKiBKArT46I8oqwwx89gf798ZHdq9/view?usp=sharing" download={true}
-                // target="_blank"
-              >
+
+              <a href="./Anmol_Jagota_Resume1 (2).pdf" download>
                 {" "}
                 <Button
                   className={cx(Styles.bg)}
                   colorScheme="blue"
                   borderRadius="10px"
+                  onClick={() =>
+                    window.open(
+                      "https://drive.google.com/file/d/1ikGGkMAo--CK5zBIwv4sCI6Ms3fmxa9M/view?usp=sharing",
+                      "_blank",
+                      "noreferrer"
+                    )
+                  }
                 >
                   Resume
                   <ExternalLinkIcon ml="10px" />
@@ -97,7 +103,7 @@ const Home = () => {
             </Box>
           </Box>
           <Spacer />
-          <Box className={Styles.image} >
+          <Box className={Styles.image}>
             <Center>
               <Image
                 boxSize="100%"
@@ -110,11 +116,12 @@ const Home = () => {
           </Box>
         </Box>
       </Box>
-<Box>
+      <Box>
+        <About />
+      </Box>
 
-      <About />
-</Box>
       <Education />
+
       <Techstack />
       <Projects />
       <Githubstats />
