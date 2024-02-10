@@ -207,7 +207,10 @@ const Projects = () => {
                 </Flex>
               </Box>
               <HStack spacing="14px" mt={"20px"}>
-                <a target="_blank">
+                <a
+                  target="_blank"
+                  href="https://frontend-anmoljagota.vercel.app/"
+                >
                   <Button
                     borderRadius="50px"
                     _hover={{
@@ -229,7 +232,10 @@ const Projects = () => {
                     Go to live
                   </Button>
                 </a>
-                <a target="_blank">
+                <a
+                  target="_blank"
+                  href="https://github.com/Anmoljagota/PRD-project"
+                >
                   {" "}
                   <Button
                     borderRadius="50px"
@@ -335,7 +341,7 @@ const Projects = () => {
                 </Flex>
               </Box>
               <HStack spacing="14px" mt={"20px"}>
-                <a target="_blank">
+                <a target="_blank" href="https://clone-lyst.netlify.app/">
                   <Button
                     borderRadius="50px"
                     _hover={{
@@ -357,7 +363,10 @@ const Projects = () => {
                     Go to live
                   </Button>
                 </a>
-                <a target="_blank">
+                <a
+                  target="_blank"
+                  href="https://github.com/iammostak/lyst.com-clone"
+                >
                   {" "}
                   <Button
                     borderRadius="50px"
@@ -461,7 +470,10 @@ const Projects = () => {
                 </Flex>
               </Box>
               <HStack spacing="14px" mt={"20px"}>
-                <a target="_blank">
+                <a
+                  target="_blank"
+                  href="https://onward-frontend-demo.vercel.app/"
+                >
                   <Button
                     borderRadius="50px"
                     _hover={{
@@ -483,7 +495,10 @@ const Projects = () => {
                     Go to live
                   </Button>
                 </a>
-                <a target="_blank">
+                <a
+                  target="_blank"
+                  href="https://github.com/anannya-sharma/onward-frontend-demo"
+                >
                   {" "}
                   <Button
                     borderRadius="50px"
