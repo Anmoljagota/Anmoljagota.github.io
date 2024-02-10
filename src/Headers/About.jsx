@@ -13,12 +13,12 @@ const About = () => {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div data-aos="zoom-in" style={{ marginTop: "100px", height: "auto" }} >
+    <div data-aos="zoom-in" style={{ marginTop: "100px", height: "auto" }}>
       <Box
         className={cx(Styles1.uppermain, Styles1.mobileuppermain)}
         height="auto"
       >
-        <h1 className={Styles.about} id="about"  mt="50px">
+        <h1 className={Styles.about} id="about" mt="50px">
           About <span className={Styles2.color}>Me</span>
         </h1>
         <Box style={{ marginTop: "80px" }} className={Styles.twothings}>
@@ -36,19 +36,16 @@ const About = () => {
             textAlign={{ sm: "center", md: "center", lg: "left" }}
           >
             <Box fontWeight="480" className={Styles.myinformation} height="80%">
-              Hi My name is <span>Anmol Jagota</span> and i am from{" "}
-              <span>Nangal-dam Punjab (India)</span>. I have completed my
-              graduation in <span>Bachelor of computer application</span>
-              <span style={{ marginLeft: "3px", fontWeight: "480px" }}>
-                from
-              </span>{" "}
-              <span>Himachal Pardesh University (HPU)</span>. now i joined a
-              <span>Masai School</span> which offers a full time course on{" "}
-              <span>Full Stack Web Developer</span>. here i got alot of
-              knowledge from my instructor and one of the best thing here i
-              improve my communication skills . they provide a extra activity to
-              improve communication skills . I get hands-on experience in
-              learning <span>frontend and backend</span> technologies.
+              Hi, I'm Anmol Jagota, a Full Stack Developer with a passion for
+              crafting seamless web experiences. Armed with an MCA from
+              Chandigarh University and specialized training in MERN stack
+              development from Masai School, I bring a blend of technical
+              expertise and practical experience. During my tenure at Nolan
+              Edutech, I played a pivotal role as a MERN Stack Developer,
+              contributing to the development and maintenance of cutting-edge
+              applications. With a strong foundation in both frontend and
+              backend technologies, I thrive on solving complex problems and
+              delivering impactful solutions.
               <TypeAnimation
                 className={Styles.run}
                 sequence={[
