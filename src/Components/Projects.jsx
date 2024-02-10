@@ -405,7 +405,7 @@ const Projects = () => {
                 Masai School is known for its innovative approach to education,
                 emphasizing skill development and job placement in the rapidly
                 evolving field of technology.
-                <Flex h="70px" w="100px" mt={"10px"}>
+                <Flex w="100px" mt={"10px"}>
                   {/* {techstack.map((images) => ( */}
                   <Box>
                     <svg
@@ -460,22 +460,52 @@ const Projects = () => {
                   </Box>
                 </Flex>
               </Box>
-
-              {/* <a href={projectitems.link} target="_blank">
-                  <Button borderRadius="50px" _hover={{
-    background: "Blue 400",
-   color:"white"
-  }} font-weight="500" className={Styles.live}> <span style={{fontSize:"25px",marginRight:"10px"}}><BsFillCaretRightSquareFill/></span>Go to live</Button>
-                </a>
-                <a href={projectitems.github} target="_blank">
-                  {" "}
-                  <Button borderRadius="50px" _hover={{
-    background: "Blue 400",
-   color:"white"
-  }} font-weight="500" className={Styles.live} >
-                  <span style={{fontSize:"25px",marginRight:"10px"}}><BsGithub/></span>View code
+              <HStack spacing="14px" mt={"20px"}>
+                <a target="_blank">
+                  <Button
+                    borderRadius="50px"
+                    _hover={{
+                      background: "Blue 400",
+                      color: "white",
+                    }}
+                    font-weight="500"
+                    p={{ md: "8px 15px 8px 15px", base: "7px 9px 7px 9px" }}
+                    className={Styles.live}
+                    fontSize={{ sm: "15px", md: "18px", base: "15px" }}
+                  >
+                    {" "}
+                    <Box
+                      mr={"10px"}
+                      fontSize={{ md: "18px", sm: "15px", base: "15px" }}
+                    >
+                      <BsFillCaretRightSquareFill />
+                    </Box>
+                    Go to live
                   </Button>
-                </a> */}
+                </a>
+                <a target="_blank">
+                  {" "}
+                  <Button
+                    borderRadius="50px"
+                    _hover={{
+                      background: "Blue 400",
+                      color: "white",
+                    }}
+                    font-weight="500"
+                    className={Styles.live}
+                    p={{ md: "8px 15px 8px 15px", base: "7px 9px 7px 9px" }}
+                    fontSize={{ md: "18px", sm: "15px", base: "15px" }}
+                  >
+                    <Box
+                      fontSize={{ md: "18px", sm: "18px", base: "18px" }}
+                      mr={"10px"}
+                    >
+                      <BsGithub />
+                    </Box>
+                    View code
+                  </Button>
+                </a>
+              </HStack>
             </Box>
           </Box>
         </SimpleGrid>
