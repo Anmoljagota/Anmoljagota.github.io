@@ -27,11 +27,13 @@ const Home = () => {
         mt="60px"
         className={cx(Styles.mainhome, Styles.middlemainhome)}
         height="auto"
+       
       >
         <Box
           className={cx(Styles.uppermain, Styles.middleuppermain)}
           height="auto"
           display={{ sm: "block", md: "flex", lg: "flex" }}
+          
         >
           <Box className={Styles.summary} height="auto">
             Hi
@@ -63,7 +65,7 @@ const Home = () => {
               mostly focused on writing a clean elegant and efficient code.I am
               constantly working to learn new things and improving my skills.
             </Text>
-            <Box>
+            <Box >
               <Flex w="120px" gap="10px">
                 {data.map((images) => (
                   <a href={images.link} target="_blank">
@@ -82,7 +84,7 @@ const Home = () => {
                 ))}
               </Flex>
 
-              <a href="./Anmol_Jagota_Resume1 (2).pdf" download>
+              <a href="./Anmol-fw18_0435-Resume.pdf" download>
                 {" "}
                 <Button
                   className={cx(Styles.bg)}
@@ -90,7 +92,7 @@ const Home = () => {
                   borderRadius="10px"
                   onClick={() =>
                     window.open(
-                      "https://drive.google.com/file/d/1ikGGkMAo--CK5zBIwv4sCI6Ms3fmxa9M/view?usp=sharing",
+                      "https://drive.google.com/file/d/1V1lwhU_WFZ3xEmwjbHR_qsaViqUMaAzU/view?usp=sharing",
                       "_blank",
                       "noreferrer"
                     )

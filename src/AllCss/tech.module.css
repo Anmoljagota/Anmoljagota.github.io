@@ -33,10 +33,7 @@
 .upper {
   margin-top: 70px;
 }
-.projectinfo {
-  /* height: 75%;
-  width: 100%; */
-}
+
 .projectmain {
   margin: auto;
   width: 90%;
@@ -45,7 +42,7 @@
   /* border:1px solid black */
 }
 .projectimg {
-  height: 75%;
+  height: 300px;
   width: 100%;
 }
 .infoinner {
@@ -65,11 +62,11 @@
 }
 .live {
   /* border:1px solid grey; */
-  font-weight: 500;
+ 
   background-color: rgb(244, 238, 238);
   border: 1px solid rgb(4 136 202);
   border-radius: 20px;
-  padding: 8px 15px 8px 15px;
+
 
 }
 .live:hover {
