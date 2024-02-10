@@ -35,7 +35,7 @@ const Home = () => {
           display={{ sm: "block", md: "flex", lg: "flex" }}
           
         >
-          <Box className={Styles.summary} height="auto">
+          <Box className={Styles.summary} height="auto" id="home">
             Hi
             <img
               src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif"

@@ -20,8 +20,8 @@ const Projects = () => {
   const { techstack } = data;
 
   return (
-    <Box style={{ marginTop: "70px" }}>
-      <h2 data-aos="zoom in" className={Styles1.about} id="project">
+    <Box style={{ marginTop: "70px" }} id="projects">
+      <h2 data-aos="zoom in" className={Styles1.about}>
         Projects<span className={Styles.pro}>Clone</span>
       </h2>
 
@@ -392,7 +392,11 @@ const Projects = () => {
           mt={"40px"}
         >
           <Box className={Styles.projectimg}>
-            <Image src="./utilits/Masai-school.png" w="100%" h="100%" />
+            <Image
+              src="https://github.com/Anmoljagota/Anmoljagota.github.io/blob/master/src/utilits/Masai-school.png?raw=true"
+              w="100%"
+              h="100%"
+            />
           </Box>
           <Box mb={"10px"}>
             <Box className={Styles.infoinner}>
@@ -401,7 +405,7 @@ const Projects = () => {
                 Masai School is known for its innovative approach to education,
                 emphasizing skill development and job placement in the rapidly
                 evolving field of technology.
-                <Flex h="70px" w="100px">
+                <Flex h="70px" w="100px" mt={"10px"}>
                   {/* {techstack.map((images) => ( */}
                   <Box>
                     <svg

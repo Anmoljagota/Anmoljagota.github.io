@@ -39,7 +39,7 @@ const Navbar = () => {
             }}
             to="/"
           >
-            <Link activeClass="active" smooth spy>
+            <Link activeClass="active" to="home">
               Home{" "}
             </Link>
           </NavLink>
@@ -49,7 +49,7 @@ const Navbar = () => {
             }}
             to="/about"
           >
-            <Link activeClass="active" smooth spy to="palwan">
+            <Link activeClass="active"  to="about">
               About{" "}
             </Link>
           </NavLink>
@@ -59,7 +59,7 @@ const Navbar = () => {
             }}
             to="/skills"
           >
-            <Link activeClass="active" smooth spy to="skill">
+            <Link activeClass="active" to="skills">
               Skills{" "}
             </Link>
           </NavLink>
@@ -69,7 +69,7 @@ const Navbar = () => {
             }}
             to="/project"
           >
-            <Link activeClass="active" smooth spy to="project">
+            <Link activeClass="active" to="projects">
               Project{" "}
             </Link>
           </NavLink>
@@ -79,7 +79,7 @@ const Navbar = () => {
             }}
             to="/contact"
           >
-            <Link activeClass="active" smooth spy to="contact">
+            <Link activeClass="active"  to="contact">
               Contact{" "}
             </Link>
           </NavLink>

@@ -13,12 +13,12 @@ const About = () => {
     Aos.init({ duration: 2000 });
   }, []);
   return (
-    <div data-aos="zoom-in" style={{ marginTop: "100px", height: "auto" }}>
+    <div data-aos="zoom-in" style={{ marginTop: "100px", height: "auto" }} >
       <Box
         className={cx(Styles1.uppermain, Styles1.mobileuppermain)}
         height="auto"
       >
-        <h1 className={Styles.about} id="palwan" mt="50px">
+        <h1 className={Styles.about} id="about"  mt="50px">
           About <span className={Styles2.color}>Me</span>
         </h1>
         <Box style={{ marginTop: "80px" }} className={Styles.twothings}>
